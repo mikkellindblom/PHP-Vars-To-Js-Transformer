@@ -1,9 +1,9 @@
 <?php
 
-namespace Laracasts\Utilities\JavaScript\Transformers;
+namespace Mikkellindblom\Utilities\JavaScript\Transformers;
 
 use Exception;
-use Laracasts\Utilities\JavaScript\ViewBinder;
+use Mikkellindblom\Utilities\JavaScript\ViewBinder;
 
 class Transformer
 {

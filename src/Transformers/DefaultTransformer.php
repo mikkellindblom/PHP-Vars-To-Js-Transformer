@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Utilities\JavaScript\Transformers;
+namespace Mikkellindblom\Utilities\JavaScript\Transformers;
 
 class DefaultTransformer
 {

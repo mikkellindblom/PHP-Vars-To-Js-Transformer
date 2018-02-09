@@ -1,10 +1,10 @@
 <?php
 
-namespace Laracasts\Utilities\JavaScript;
+namespace Mikkellindblom\Utilities\JavaScript;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Laracasts\Utilities\JavaScript\Transformers\Transformer;
+use Mikkellindblom\Utilities\JavaScript\Transformers\Transformer;
 
 class JavaScriptServiceProvider extends ServiceProvider
 {
@@ -39,10 +39,10 @@ class JavaScriptServiceProvider extends ServiceProvider
         if (class_exists('Illuminate\Foundation\AliasLoader')) {
             AliasLoader::getInstance()->alias(
                 'JavaScript',
-                'Laracasts\Utilities\JavaScript\JavaScriptFacade'
+                'Mikkellindblom\Utilities\JavaScript\JavaScriptFacade'
             );
         } else {
-            class_alias('Laracasts\Utilities\JavaScript\JavaScriptFacade', 'JavaScript');
+            class_alias('Mikkellindblom\Utilities\JavaScript\JavaScriptFacade', 'JavaScript');
         }
     }
 

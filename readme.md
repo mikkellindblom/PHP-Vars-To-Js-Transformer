@@ -5,7 +5,7 @@
 Begin by installing this package through Composer.
 
 ```bash
-composer require laracasts/utilities
+composer require Mikkellindblom/utilities
 ```
 
 > If you use Laravel 4: instead install `~1.0` of this package (and use the documentation for that release). For Laravel 5 (or non-Laravel), `~2.0` will do the trick!
@@ -58,7 +58,7 @@ php artisan vendor:publish
 
 // Or...
 
-php artisan vendor:publish --provider="Laracasts\Utilities\JavaScript\JavaScriptServiceProvider"
+php artisan vendor:publish --provider="Mikkellindblom\Utilities\JavaScript\JavaScriptServiceProvider"
 ```
 
 This will add a new configuration file to: `config/javascript.php`.
@@ -118,4 +118,4 @@ php artisan config:clear
 
 ## License
 
-[View the license](https://github.com/laracasts/PHP-Vars-To-Js-Transformer/blob/master/LICENSE) for this repo.
+[View the license](https://github.com/mikkellindblom/laravel-js-helper/blob/master/LICENSE) for this repo.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Utilities\JavaScript;
+namespace Mikkellindblom\Utilities\JavaScript;
 
 use Illuminate\Contracts\Events\Dispatcher;
 
@@ -41,7 +41,7 @@ class LaravelViewBinder implements ViewBinder
     {
         foreach ($this->views as $view) {
             $this->event->listen("composing: {$view}", function () use ($js) {
-                echo "<script>{$js}</script>";
+                echo $js;
             });
         }
     }

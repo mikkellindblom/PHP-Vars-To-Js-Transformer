@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Utilities\JavaScript;
+namespace Mikkellindblom\Utilities\JavaScript;
 
 use Illuminate\Support\Facades\Facade;
 
