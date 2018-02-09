@@ -5,7 +5,7 @@
 Begin by installing this package through Composer.
 
 ```bash
-composer require Mikkellindblom/js-helper
+composer require mikkellindblom/laravel-js-helper
 ```
 
 ### Ussage
