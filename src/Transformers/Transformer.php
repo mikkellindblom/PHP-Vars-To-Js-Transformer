@@ -1,9 +1,9 @@
 <?php
 
-namespace Mikkellindblom\Utilities\JavaScript\Transformers;
+namespace Mikkellindblom\jsHelper\JavaScript\Transformers;
 
 use Exception;
-use Mikkellindblom\Utilities\JavaScript\ViewBinder;
+use Mikkellindblom\jsHelper\JavaScript\ViewBinder;
 
 class Transformer
 {

@@ -1,5 +1,5 @@
 {
-    "name": "mikkellindblom/utilities",
+    "name": "mikkellindblom/laravel-js-helper",
     "description": "Transform your PHP to JavaScript",
     "keywords": ["laravel", "javascript"],
     "license": "MIT",
@@ -21,16 +21,16 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Mikkellindblom\\Utilities\\JavaScript\\": "src/"
+            "Mikkellindblom\\jsHelper\\JavaScript\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mikkellindblom\\Utilities\\JavaScript\\JavaScriptServiceProvider"
+                "Mikkellindblom\\jsHelper\\JavaScript\\JavaScriptServiceProvider"
             ],
             "aliases": {
-                "JavaScript": "Mikkellindblom\\Utilities\\JavaScript\\JavaScriptFacade"
+                "JavaScript": "Mikkellindblom\\jsHelper\\JavaScript\\JavaScriptFacade"
             }
         }
     }

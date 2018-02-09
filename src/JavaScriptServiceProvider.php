@@ -1,10 +1,10 @@
 <?php
 
-namespace Mikkellindblom\Utilities\JavaScript;
+namespace Mikkellindblom\jsHelper\JavaScript;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Mikkellindblom\Utilities\JavaScript\Transformers\Transformer;
+use Mikkellindblom\jsHelper\JavaScript\Transformers\Transformer;
 
 class JavaScriptServiceProvider extends ServiceProvider
 {
@@ -39,10 +39,10 @@ class JavaScriptServiceProvider extends ServiceProvider
         if (class_exists('Illuminate\Foundation\AliasLoader')) {
             AliasLoader::getInstance()->alias(
                 'JavaScript',
-                'Mikkellindblom\Utilities\JavaScript\JavaScriptFacade'
+                'Mikkellindblom\jsHelper\JavaScript\JavaScriptFacade'
             );
         } else {
-            class_alias('Mikkellindblom\Utilities\JavaScript\JavaScriptFacade', 'JavaScript');
+            class_alias('Mikkellindblom\jsHelper\JavaScript\JavaScriptFacade', 'JavaScript');
         }
     }
 

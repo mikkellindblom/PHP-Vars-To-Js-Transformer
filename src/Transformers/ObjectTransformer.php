@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikkellindblom\Utilities\JavaScript\Transformers;
+namespace Mikkellindblom\jsHelper\JavaScript\Transformers;
 
 use JsonSerializable;
 use stdClass;

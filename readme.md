@@ -5,10 +5,8 @@
 Begin by installing this package through Composer.
 
 ```bash
-composer require Mikkellindblom/utilities
+composer require Mikkellindblom/js-helper
 ```
-
-> If you use Laravel 4: instead install `~1.0` of this package (and use the documentation for that release). For Laravel 5 (or non-Laravel), `~2.0` will do the trick!
 
 ### Ussage
 
@@ -58,7 +56,7 @@ php artisan vendor:publish
 
 // Or...
 
-php artisan vendor:publish --provider="Mikkellindblom\Utilities\JavaScript\JavaScriptServiceProvider"
+php artisan vendor:publish --provider="Mikkellindblom\js-helper\JavaScript\JavaScriptServiceProvider"
 ```
 
 This will add a new configuration file to: `config/javascript.php`.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mikkellindblom\Utilities\JavaScript;
+namespace Mikkellindblom\jsHelper\JavaScript;
 
 use Illuminate\Support\Facades\Facade;
 
