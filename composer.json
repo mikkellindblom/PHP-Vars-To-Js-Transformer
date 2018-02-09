@@ -1,12 +1,12 @@
 {
-    "name": "laracasts/utilities",
+    "name": "Mikkellindblom/utilities",
     "description": "Transform your PHP to JavaScript",
     "keywords": ["laravel", "javascript"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeffrey Way",
-            "email": "jeffrey@laracasts.com"
+            "name": "Mikkel lindblom",
+            "email": "mikkel.lindblom@gmail.com"
         }
     ],
     "require": {
@@ -21,16 +21,16 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Laracasts\\Utilities\\JavaScript\\": "src/"
+            "Mikkellindblom\\Utilities\\JavaScript\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laracasts\\Utilities\\JavaScript\\JavaScriptServiceProvider"
+                "Mikkellindblom\\Utilities\\JavaScript\\JavaScriptServiceProvider"
             ],
             "aliases": {
-                "JavaScript": "Laracasts\\Utilities\\JavaScript\\JavaScriptFacade"
+                "JavaScript": "Mikkellindblom\\Utilities\\JavaScript\\JavaScriptFacade"
             }
         }
     }
